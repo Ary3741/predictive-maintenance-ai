@@ -16,9 +16,9 @@ st.set_page_config(
 #LOAD ALL THE MODELS 
 @st.cache_resource
 def load_model():
-    with open("C:\Users\Aryan\OneDrive\Desktop\predictive maintenance\models\rf_model.pkl", 'rb') as f:
+    with open("models/rf_model.pkl", 'rb') as f:
         model = pickle.load(f)
-    with open("C:\Users\Aryan\OneDrive\Desktop\predictive maintenance\models\feature_names.pkl", 'rb') as f:
+    with open("models/feature_names.pkl", 'rb') as f:
         feature_names = pickle.load(f)
     return model, feature_names
 
