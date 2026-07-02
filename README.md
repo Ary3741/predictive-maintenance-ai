@@ -12,7 +12,7 @@
 
 ## 🔗 Live Demo
 
-👉 **[Launch App](https://YOUR_STREAMLIT_URL_HERE)**
+👉 **[Launch App](predictive-maintenance-ai-ydm9rgfthfnxluo2qkwjyb.streamlit.app)**
 
 ---
 
