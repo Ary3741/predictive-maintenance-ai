@@ -27,7 +27,7 @@ explainer = shap.TreeExplainer(model)
 
 #PAGE HEADER 
 st.title("Predictive Maintenance Dashboard")
-st.markdown("###Machine Failure Prediction with AI")
+st.markdown("Machine Failure Prediction with AI")
 st.markdown("""
 This tool uses a **Random Forest model** trained on industrial sensor data
 to predict whether a machine is at risk of failure — and explains **why**
@@ -153,7 +153,7 @@ plt.close()
 
 #ENGLISH EXPLAINATION 
 st.divider()
-st.markdown("## CONCLLUSION DERIVED")
+st.markdown("## CONCLUSION DERIVED")
 
 shap_series = pd.Series(shap_vals_failure[0], index=feature_names)
 top_positive = shap_series[shap_series > 0].sort_values(ascending=False)
